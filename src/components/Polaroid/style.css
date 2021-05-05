@@ -1,3 +1,7 @@
+.polaroid, img {
+  border-radius: 0.18em;
+}
+
 .polaroid {
   max-width: 300px;
   height: 400px;
@@ -15,10 +19,13 @@ img {
 h3 {
   margin-top: 1em;
   margin-bottom: 0;
+  text-transform: capitalize;
 }
 
-p {
-  text-overflow: ellipsis;
+.overflow-dots {
+  display: -webkit-box;
+  text-align: justify;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  white-space: wrap;
 }

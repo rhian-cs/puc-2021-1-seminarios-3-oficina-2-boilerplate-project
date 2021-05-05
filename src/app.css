@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 html {
   font-size: 62.5%;
+  min-height: 100%;
 }
 
 body {
@@ -10,10 +12,8 @@ body {
   background: rgba(9,102,121,1);
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 27%, rgba(0,212,255,1) 100%);
 
+  font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.6em;
-}
-
-#app {
 }
 
 .container {

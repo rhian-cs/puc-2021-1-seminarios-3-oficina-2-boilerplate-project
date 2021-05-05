@@ -7,7 +7,9 @@ const Polaroid = (props) => {
     <div className="polaroid">
       <img src={props.imgSrc} alt={props.title}/>
       <h3>{props.title}</h3>
-      <p>{props.children}</p>
+      <span className="overflow-dots">
+        <p>{props.children}</p>
+      </span>
     </div>
   )
 }
