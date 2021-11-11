@@ -1,7 +1,7 @@
 # Boilerplate Website
 Seminários III (2021) - Workshop 2 - React
 
-The website is available [here](https://rhian-cs.github.io/seminarios-2021-oficina-2-boilerplate/public/index.html).
+The website is available [here](https://rhian-cs.github.io/puc-2021-1-seminarios-3-oficina-2-boilerplate-project/public/index.html).
 
 ## Description
 This project is the first part of the course, focusing on creating some boilerplate and a simple website to learn the basics.
